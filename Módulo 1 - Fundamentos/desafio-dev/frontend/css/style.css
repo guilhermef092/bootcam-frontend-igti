@@ -1,0 +1,54 @@
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.option {
+  margin-right: 30px;
+}
+
+.picture {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+}
+
+.devs-card {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 4px;
+  margin: 4px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.data {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.data img {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem 0.5rem 0rem 0rem;
+}
+
+#filterOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
