@@ -1,0 +1,13 @@
+.display { 
+  background-color: #2E3846;
+  color: #FFFFFF;
+  font: 700 1.4rem Roboto;
+
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.8rem;
+}
+
+.red {
+  background-color: red;
+}

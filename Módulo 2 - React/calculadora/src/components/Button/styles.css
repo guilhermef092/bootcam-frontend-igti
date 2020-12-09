@@ -1,0 +1,31 @@
+.button {
+  font: 700 1.4rem Roboto;
+  display: grid;
+  place-items: center;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background: #C0C0C0;
+}
+
+.operation {
+  background-color: #ffdb4d;
+  border-radius: 0.5rem; 
+}
+
+.double {
+  grid-column: span 2;
+}
+
+.triple {
+  grid-column: span 3;
+}
